@@ -11,4 +11,4 @@ if DT_STRTAB not in e.dynamic_headers:
 if DT_STRSZ not in e.dynamic_headers:
 	sys.exit(1)
 
-# ここにコードを追加 (適宜表示するコードを付けると良いかもしれない)
+print(repr(e.read_by_vaddr(e.dynamic_headers[DT_STRTAB], e.dynamic_headers[DT_STRSZ])))
