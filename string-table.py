@@ -10,3 +10,5 @@ if DT_STRTAB not in e.dynamic_headers:
 	sys.exit(1)
 if DT_STRSZ not in e.dynamic_headers:
 	sys.exit(1)
+
+# ここにコードを追加 (適宜表示するコードを付けると良いかもしれない)
