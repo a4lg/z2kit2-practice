@@ -22,6 +22,6 @@ z2kit 練習
 `z2kit` ディレクトリとして簡易解析用キットを展開することを要求されます。
 複雑さを避けるため、git の submodule 機能は敢えて使用していません。
 
-	git clone https://github.com/a4lg/z2kit.git z2kit
+	git clone https://github.com/a4lg/z2kit2.git z2kit2
 
-のように、z2kit を展開すると良いかと思われます。
+のように、z2kit2 を展開すると良いかと思われます。
