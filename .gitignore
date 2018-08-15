@@ -1,0 +1,9 @@
+__pycache__
+*.pyc
+*~
+\#*
+.*
+!.git?*
+/z2kit2/
+/malware-samples/
+/virustotal-scan-results.json
